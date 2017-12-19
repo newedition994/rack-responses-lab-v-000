@@ -1,4 +1,5 @@
 class Application
+
   def call(env)
     resp = Rack::Response.new
 
@@ -10,4 +11,5 @@ class Application
 
     resp.finish
   end
+
 end
